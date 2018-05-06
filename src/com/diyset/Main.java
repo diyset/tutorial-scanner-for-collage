@@ -13,6 +13,7 @@ public class Main {
     public static void main(String[] args) {
 
         int switchChoice = 0;
+        System.out.println("");
         System.out.println("----Selamat Datang-----");
         System.out.println("List Bioskop Kesukaan Anda");
         System.out.println("1. Blok M Square");
@@ -375,5 +376,6 @@ public class Main {
         }
         System.out.println("Total Harga "+decimalFormat.format(totalHarga));
         System.out.println("Jumlah Tiket "+daftarTiket.size());
+
     }
 }
